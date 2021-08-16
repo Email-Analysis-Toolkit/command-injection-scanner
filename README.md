@@ -256,3 +256,9 @@ Procedure:
 Results:
 
 * Indicates whether the target is believed to be vulnerable in `vulnerable` field.
+
+## Background
+
+This tool was published as part of our research on security vulnerabilities in STARTTLS:
+
+* https://nostarttls.secvuln.info/
