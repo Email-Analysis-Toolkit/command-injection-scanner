@@ -100,7 +100,7 @@ Fetches SMTP capabilities before and after STARTTLS.
 
 Example:
 
-`./zgrab2 --f hosts.txt -o results.json smtp_capabilities --scandomain <scandomain> --port 587`
+`./zgrab2 -f hosts.txt -o results.json smtp_capabilities --scandomain <scandomain> --port 587`
 
 Parameters:
 
@@ -127,7 +127,7 @@ Fetches SMTP capabilities before and after STARTTLS.
 
 Example:
 
-`./zgrab2 --f hosts.txt -o results.json smtp_implicit_tls --scandomain <scandomain> --port 587`
+`./zgrab2 -f hosts.txt -o results.json smtp_implicit_tls --scandomain <scandomain> --port 587`
 
 Parameters:
 
@@ -152,7 +152,7 @@ Tests an SMTP server for the STARTTLS command injection bug.
 
 Example:
 
-`./zgrab2 --f hosts.txt -o results.json smtp_implicit_tls --scandomain <scandomain> --port 587`
+`./zgrab2 -f hosts.txt -o results.json smtp_buffering_error --scandomain <scandomain> --port 587`
 
 Parameters:
 
@@ -187,7 +187,7 @@ Fetches POP3 capabilities before and after STARTTLS.
 
 Example:
 
-`./zgrab2 --f hosts.txt -o results.json pop3_capabilities`
+`./zgrab2 -f hosts.txt -o results.json pop3_capabilities`
 
 Parameters:
 
@@ -211,7 +211,7 @@ Fetches POP3 capabilities for implicit TLS.
 
 Example:
 
-`./zgrab2 --f hosts.txt -o results.json pop3_implicit_tls`
+`./zgrab2 -f hosts.txt -o results.json pop3_implicit_tls`
 
 Parameters:
 
